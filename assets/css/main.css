@@ -3935,36 +3935,51 @@ input, select, textarea {
 	}
 	  
 	.square {
-		position: relative;
-		width: 400px;
-		height: 445px;
-		margin: 20px;
-		overflow: hidden;
-	}
-
-	.square .image-title {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 100%;
+		margin: 0 auto;
+		background-color: #2ee4bb;
+	  }
+	  
+	  .image-title {
 		width: 100%;
 		height: auto;
-		display: block;
-	}
-
-	.square .text {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
+	  }
+	  
+	  .text {
 		padding: 20px;
-		background-color: #49fcd4;
-		color: black;
-	}
-
-	.square .text h3 {
+		text-align: center;
+	  }
+	  
+	  .text h3 {
+		font-size: 24px;
+		margin-top: 0;
+	  }
+	  
+	  .text div {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-top: 20px;
+	  }
+	  
+	  .text p {
+		font-size: 18px;
+		text-align: center;
+		flex-basis: 25%;
 		margin: 0;
-		font-size: 1.5em;
-	}
-
-	.square .text p {
-		font-size: 1em;
-		display: inline-block;
-	} 
- 
+	  }
+	  
+	  .text p img {
+		display: block;
+		margin: 0 auto;
+	  }
+	  
+	  @media screen and (max-width: 768px) {
+		.text p {
+		  flex-basis: 50%;
+		}
+	  }
