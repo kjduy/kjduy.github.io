@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Kevin Duy Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro" id="zero">
+						<header>
+							<h1>Kevin Duy</h1>
+							<p>Welcome to my portfolio as a Full Stack Developer.</p>
+							<a class="button white" href="assets/pdf/Kevin_Duy_CV.pdf" download>Download my CV</a>
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image top" data-position="center"><img src="images/profile.jpeg" alt="" /></span>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>About me</h2>
+							<ul class="actions">
+								<li><a href="#second" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<p>Hi, I am Kevin Duy, a software engineer with 1 year of software development experience, I have developed knowledge in: Python, C#, TypeScript, Tornado, FastAPI, .NET, React, PostgreSQL, DynamoDB, PyTest, xUnit.Net, Jest, Datadog, Sentry, Scrum, Kanban, GitHub, GitLab, Jira and Docker.</p>
+							<p><b>I AM CURRENTLY WORKING BUT I AM ALWAYS OPEN TO LISTEN TO NEW PROPOSALS AND TAKE ON NEW CHALLENGES.</b></p>
+							<p>If you want to contact me write to <span id="email"><b>k.vn.jdh@gmail.com</b></span></p>
+							<script>
+								const emailSpan = document.getElementById('email');
+								emailSpan.addEventListener('click', function() {
+								const email = emailSpan.textContent;
+								navigator.clipboard.writeText(email);
+								const message = document.createElement('div');
+								message.textContent = 'Email copied to clipboard!';
+								message.classList.add('clipboard-message');
+								document.body.appendChild(message);
+								setTimeout(function() {
+									message.remove();
+								}, 3000);
+								});
+							</script>
+							<p>See my work experience in detail on <a href="https://www.linkedin.com/in/kevin-duy-907a151b8/" target="_blank"><b>LinkedIn</b></a></p>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="second">
+						<header>
+							<h2>Portfolio</h2>
+							<ul class="actions">
+								<li><a href="#third" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<div class="square">
+								<img class="image-title" src="images/pizza.png" alt="Pizza">
+								<div class="text">
+								  <h3>Pizza planet</h3>
+								  <p>Web application that allows you to place pizza orders with fake data.</p>
+								  <div style="display: flex;">
+									<p style="text-align: center; flex: 1;">
+									  <img src="images/languages/python.png" alt="Python" width="25px" height="25px"><br>Python
+									</p>
+									<p style="text-align: center; flex: 1;">
+									  <img src="images/languages/html.png" alt="HTML" width="25px" height="25px"><br>HTML
+									</p>
+									<p style="text-align: center; flex: 1;">
+									  <img src="images/languages/javascript.png" alt="JavaScript" width="25px" height="25px">JavaScript
+									</p>
+									<p style="text-align: center; flex: 1;">
+									  <img src="images/languages/css.png" alt="CSS" width="25px" height="25px"><br>CSS
+									</p>
+									<a href="https://github.com/kjduy/python-pizza-planet" target="_blank">
+										<p style="text-align: center; flex: 1;">
+										  <img src="images/platforms/github.svg" alt="GitHub" width="25px" height="25px"><br>Code
+										</p>
+									</a>
+								  </div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="third">
+						<header>
+							<h2>Education and courses</h2>
+							<ul class="actions">
+								<li><a href="#fourth" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<br><br><br>
+							<!-- Section -->
+							<section>
+								<header>
+									<h3>International Baccalaureate</h3>
+									<p>Unidad Educativa Rafael Larrea Andrade (2015 - 2018)</p>
+								</header>
+								<div class="content">
+									<div class="gallery">
+										<a href="images/certificates/international.png" class="portrait"><img src="images/certificates/international.png" alt="international" /></a>
+									</div>
+								</div>
+							</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>Software engineer</h3>
+										<p>Universidad de las Fuerzas Armadas ESPE (2018 - 2023)</p>
+									</header>
+									<div class="content">
+										<p>In my education as a software engineer I studied the phases of the software development process, with a systemic and quantifiable approach, which integrates the theoretical and methodological components and good practices of software development, through the application of: programming languages, methods, techniques, tools, norms and standards, with the purpose of building quality software that provides solutions to the needs of the contexts of the different socio-economic, productive and technological sectors.</p>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>English B1</h3>
+										<p>Instituto de Idiomas ESPE</p>
+										<p>(2019 - 2021)</p>
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="images/certificates/english.png" class="landscape"><img src="images/certificates/english.png" alt="english.jpeg" /></a>
+										</div>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>ioet University training program</h3>
+										<p>ioet (2023)</p>
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="images/certificates/Kevin Duy.png" class="landscape"><img src="images/certificates/Kevin Duy.png" alt="ioet" /></a>
+										</div>
+									</div>
+								</section>
+
+							<!-- Section -->
+							<section>
+								<header>
+									<h3>TypeScript</h3>
+									<p>Código facilito (2023)</p>
+								</header>
+								<div class="content">
+									<div class="gallery">
+										<a href="images/certificates/typescript.png" class="landscape"><img src="images/certificates/typescript.png" alt="typescript" /></a>
+									</div>
+								</div>
+							</section>
+
+							<!-- Section -->
+							<section>
+								<header>
+									<h3>PCAP: Programming Essentials in Python</h3>
+									<p>Python Institute (2021)</p>
+								</header>
+								<div class="content">
+									<div class="gallery">
+										<a href="images/certificates/python.png" class="landscape"><img src="images/certificates/python.png" alt="python" /></a>
+									</div>
+								</div>
+							</section>
+
+							<!-- Section -->
+							<section>
+								<header>
+									<h3>Scrum Foundation Professional Certificate (SFPC)</h3>
+									<p>CertiProf (2020)</p>
+								</header>
+								<div class="content">
+									<div class="gallery">
+										<a href="images/certificates/scrum.png" class="landscape"><img src="images/certificates/scrum.png" alt="scrum" /></a>
+									</div>
+								</div>
+							</section>
+
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="fourth">
+						<header>
+							<h2>Skills</h2>
+							<ul class="actions">
+								<li><a href="#fifth" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<h3>Programming languages</h3>
+							<li>Python</li>
+							<li>C#</li>
+							<li>TypeScript</li>
+							<br>
+							<h3>Frameworks</h3>
+							<li>Tornado</li>
+							<li>FastAPI</li>
+							<li>.NET</li>
+							<li>React</li>
+							<br>
+							<h3>Databases</h3>
+							<li>PostgreSQL</li>
+							<li>DynamoDB</li>
+							<br>
+							<h3>Testing</h3>
+							<li>PyTest</li>
+							<li>xUnit.Net</li>
+							<li>Jest</li>
+							<br>
+							<h3>Monitoring</h3>
+							<li>Datadog</li>
+							<li>Sentry</li>
+							<br>
+							<h3>Project Management</h3>
+							<li>Scrum</li>
+							<li>Kanban</li>
+							<li>Jira</li>
+							<br>
+							<h3>Version Control and Collaboration</h3>
+							<li>GitHub</li>
+							<li>GitLab</li>
+							<li>Git</li>
+							<br>
+							<h3>Containerization and Deployment</h3>
+							<li>Docker</li>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="fifth">
+						<header>
+							<h2>Contact</h2>
+							<ul class="actions">
+								<li><a href="#zero" class="arrow scrolly up"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<p><b>YOU CAN CONTACT ME ANYTIME AND I WILL RESPOND YOU ASAP.</b></p>
+							<p><b>THANKS IN ADVANCE FOR TAKING THE TIME TO VIEW MY PORTFOLIO.</b></p>
+						</div>
+						<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<span id="email">k.vn.jdh@gmail.com</span>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<span>+593 984949948</span>
+								</li>
+								<li>
+									<h3>Address</h3>
+									<span>Distrito Metropolitano de Quito, Pichincha, Ecuador</span>
+								</li>
+								<li>
+									<h3>Social networks</h3>
+									<ul class="icons">
+										<li><a target="_blank" href="https://www.linkedin.com/in/kevin-duy-907a151b8/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li><a target="_blank" href="https://github.com/kjduy" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</footer>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
